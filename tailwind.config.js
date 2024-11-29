@@ -4,14 +4,6 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {
-      backgroundImage: {
-        'back': "url('./back.png')",
-       
-      }
-    },
-  },
   plugins: [],
 }
 
