@@ -24,7 +24,7 @@ export default function Home() {
 
     return (
 
-        <div className='h-screen bg-cover pt-16 bg-back'>
+        <div className="h-screen bg-cover pt-16 bg-[url('/src/assets/back.png')]">
             <ToastContainer />
 
             <div className='sm:max-w-[47%] max-w-[95%] mx-auto sm:ml-[5%]  bg-wh  bg-white rounded-lg '>
