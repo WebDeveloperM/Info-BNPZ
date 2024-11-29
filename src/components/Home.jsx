@@ -1,11 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
+import { ToastContainer } from 'react-toastify';
+import back from "../assets/back.png"
 
-import axios from 'axios'
-import { useNavigate } from 'react-router-dom';
-import { BASE_URL, BASE_URL_MEDIA } from '../utils/urls';
-import { ToastContainer, toast } from 'react-toastify';
 export default function Home() {
-
 
 
     // useEffect(() => {
@@ -27,10 +24,10 @@ export default function Home() {
 
     return (
 
-        <div className='h-screen bg-back bg-cover pt-16'>
+        <div className='h-screen bg-cover pt-16 bg-back'>
             <ToastContainer />
 
-            <div className='max-w-[47%] ml-[5%] bg-wh  bg-white rounded-lg '>
+            <div className='sm:max-w-[47%] max-w-[95%] mx-auto sm:ml-[5%]  bg-wh  bg-white rounded-lg '>
                 <div className='p-10'>
 
                     <form className=''>
